@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
-* main init
+* main - Entry point 
 */
 int main(void)
 {
