@@ -2,7 +2,7 @@
 /**
  * main - prints the standrad error sandwiched around the  standard outpu/t
  *
- * Return - returns 1
+ * Return: returns 1
  */
 int main(void)
 {
