@@ -1,6 +1,6 @@
 #include<unistd.h>
 /**
- * main - Prints the standard error output
+ * main -  main - prints the standrad error sandwiched around the  standard outpu/t
  * Return - returns 1
  */
 int main(void)
