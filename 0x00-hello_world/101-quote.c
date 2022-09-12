@@ -1,6 +1,6 @@
 #include<unistd.h>
 /**
- * main - Entry point
+ * main - Prints the standard error output
  * Return - 1 (Success)
  */
 int main(void)
