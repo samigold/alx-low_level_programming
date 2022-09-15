@@ -9,9 +9,9 @@ void print_alphabet(void)
 
 	while(lower_case <= 'z')
 	{
-		putchar(lower_case);
+		_putchar(lower_case);
 		lower_case++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
