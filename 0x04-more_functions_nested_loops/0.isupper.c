@@ -6,7 +6,7 @@
  * Return: 1(success)
  */
 
-int _supper(int c)
+int _isupper(int c)
 {
 	int c;
 
