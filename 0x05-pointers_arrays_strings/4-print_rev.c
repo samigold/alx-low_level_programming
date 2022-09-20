@@ -13,6 +13,8 @@ void print_rev(char *s)
 
 	len = strlen(s);
 
+	i = 0;
+
 	if (i < len / 2)
 	{
 		temp = s[i];
