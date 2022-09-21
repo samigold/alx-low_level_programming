@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * puts2 - function that prints every other character
- * @str: pointer to char
- * Return: nothing
- */
+ * puts2 - function should print only one character out of two
+ * starting with the first one
+ * @str: input
+ * Return: print
+*/
 
 void puts2(char *str)
 {
-int i = 0;
+	int i = 0;
 
-while (str[i] != '\0')
-{
-if (i % 2 == '\0')
-{
-_putchar(str[i]);
-}
-i += 1;
-}
-_putchar('\n');
+	for (; str[i] != '\0'; i++)
+	{
+		if ((i % 2) == 0)
+			_putchar(str[i]);
+		else
+			continue;
+	}
+	_putchar('\n');
 }
